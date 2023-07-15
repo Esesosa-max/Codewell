@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Commune Wailist Starter Files</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="#" class="brand">
+        <img src="./Assets/Logo.svg" alt="" />
+      </a>
+      <img src="./Assets/Hamburger Menu.svg" alt="" class="menu" />
+      <ul>
+        <li>Features</li>
+        <li>Affiliates</li>
+        <li>Prcing</li>
+        <li>Communities</li>
+        <li><button>Join Wailist</button></li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <div class="text-container">
+        <h4 class="style-text">
+          We are now allowing early access for users <a href="#">Learn More</a>
+        </h4>
+        <h1>
+          Build a Highly engaged <br />
+          Community with no effort
+        </h1>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus,
+          illum, odio laboriosam accusantium voluptatem vel distinctio excepturi
+          quaerat quo ab ratione, adipisci necessitatibus blanditiis sunt
+          delectus in a aliquid ex consequatur mollitia ut reprehenderit numquam
+        </p>
+        <div class="input-container">
+          <input type="text" placeholder="Enter your e-mail addresss" />
+          <input type="button" value="Join Wailist" />
+        </div>
+      </div>
+      <div class="img-container">
+        <img src="./Assets/Illustration.png" alt="" />
+      </div>
+    </div>
+    <footer>
+      <p>Used by these companies</p>
+      <div class="logo-container">
+        <img src="./Assets/Behance Icon.svg" alt="" />
+        <img src="./Assets/Bing Icon.svg" alt="" />
+        <img src="./Assets/Bitbucket Icon.svg" alt="" />
+        <img src="./Assets/Dropbox Icon.svg" alt="" />
+        <img src="./Assets/Twitch Icon.svg" alt="" />
+      </div>
+    </footer>
+    <script>
+      const ul = document.querySelector("ul");
+      const menu = document.querySelector(".menu");
+      menu.addEventListener("click", (e) => {
+        ul.classList.toggle("none");
+      });
+    </script>
+  </body>
+</html>
